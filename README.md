@@ -12,4 +12,5 @@ the internet but cannot convert a file to PDF — an entry for the
 
 `main.ts` (Node 22, standard library only) writes that single sentence to
 `/output/entry.txt` — no trailing newline, 153 Unicode code points, inside the
-competition's 1–320 character limit.
+competition's 1–320 character limit. Run it with `node main.ts`; it is
+deterministic and writes the same bytes on every run.
